@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <math.h>
-
+#include <locale.h>
 #define MAXCAR 100
 
 typedef char tString[MAXCAR];
@@ -45,6 +45,7 @@ int main() {
 }
 
 void menu() {
+    setlocale(LC_ALL, "es_ES.UTF-8");
     int dato = 1;
     while (dato != 0) {
         printf("\n\n*** MENU ***\n");
