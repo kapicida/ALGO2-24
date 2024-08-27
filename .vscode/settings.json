@@ -3,6 +3,7 @@
         "*.cpp": "cpp",
         "stdio.h": "c",
         "stdbool.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "stdlib.h": "c"
     }
 }
