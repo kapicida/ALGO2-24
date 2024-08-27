@@ -36,6 +36,7 @@ void listarSobrepeso(tListaEncuestados*);
 void menu();
 
 int main() {
+    setlocale(LC_CTYPE, "es_ES.UTF-8");
     inicializarLista(&ListaEncuestados); // Inicializa ListaEncuestados a NULL
     menu();
     if (listaVacia(ListaEncuestados)) {
@@ -45,7 +46,6 @@ int main() {
 }
 
 void menu() {
-    setlocale(LC_ALL, "es_ES.UTF-8");
     int dato = 1;
     while (dato != 0) {
         printf("\n\n*** MENU ***\n");
@@ -76,6 +76,7 @@ void menu() {
                 printf("Opción inválida\n");
                 break;
         }
+        fflush(stdin);
     }
 }
 
@@ -132,7 +133,7 @@ float PromedioPesoBajo(tListaEncuestados* pLista) {
     }
 
     tListaEncuestados* listaaux = pLista;
-    int Acumulador = 0;
+    float Acumulador = 0;
     int i = 0;
     float PromedioPesoBajo = 0;
 
