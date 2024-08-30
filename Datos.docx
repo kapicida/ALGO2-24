@@ -1,0 +1,4 @@
+Recursividad es una funcion que se llama a si misma con un caso base y un caso recursivo.
+Tenemos funciones recursivas simples o multiples en la simple llamamos una vez o mas de dos veces es multiples
+Indirecta o directa se llama dentro de la misma funcion si es directa o indirecta si se llamaa desde otra funcion
+la ventaja que tiene es la simplicidad que tiene para leer
