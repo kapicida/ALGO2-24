@@ -230,6 +230,7 @@ void insertaColorEnPos(int posicion, tColor pColor) {
 	printf("\nColor insertado en la posicion %d: %s", 
 				posicion, pColor.nombre);
 }
+}
 
 void eliminarColorDePos(int posicion) {
 	/* Se debe utilizar una lista auxiliar (aux) */

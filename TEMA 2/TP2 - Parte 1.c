@@ -206,3 +206,8 @@ void IngresarEncuestado(tListaEncuestados** pLista) {
     }
 }
 
+typedef char tString[50];
+tString A;
+if(A[0] != '\0'){
+    printf("A es NO NULO");
+}
